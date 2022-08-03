@@ -136,7 +136,7 @@
 
 .u-section-2 .u-text-2 {
   font-size: 1.25rem;
-  margin: 44px 78px 0 464px;
+  margin: 49px 78px 0 464px;
 }
 
 .u-section-2 .u-image-1 {
@@ -145,7 +145,7 @@
   box-shadow: 2px 0 0px 0px rgba(0,0,0,0);
   transition-duration: 0.5s;
   transform: translateX(0px) translateY(0px) scale(1) rotate(0deg);
-  margin: -347px auto 60px 0;
+  margin: -352px auto 60px 0;
 }
 
 @media (max-width: 1199px) {
