@@ -296,7 +296,7 @@
   width: 598px;
   height: 376px;
   grid-gap: 10px 10px;
-  margin: 83px 228px 0 auto;
+  margin: 77px 228px 0 auto;
 }
 
 .u-section-3 .u-carousel-indicators-1 {
@@ -353,7 +353,7 @@
   font-size: 3rem;
   text-transform: uppercase;
   font-weight: 100;
-  margin: -366px 892px 60px -11px;
+  margin: -360px 892px 60px -11px;
 }
 
 @media (max-width: 1199px) {
@@ -363,6 +363,7 @@
 
   .u-section-3 .u-text-1 {
     width: 537px;
+    margin-top: -366px;
     margin-right: 792px;
   }
 }
