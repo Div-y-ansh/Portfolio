@@ -7,7 +7,7 @@
   min-height: 185px;
   transition-duration: 0.5s;
   background-image: none;
-  margin: 342px auto 0;
+  margin: 342px auto 60px;
 }
 
 .u-section-1 .u-container-layout-1 {
@@ -38,7 +38,6 @@
 @media (max-width: 991px) {
   .u-section-1 .u-group-1 {
     margin-top: 379px;
-    margin-bottom: 60px;
   }
 }
 
@@ -70,7 +69,6 @@
 
   .u-section-1 .u-group-1 {
     width: 340px;
-    margin-bottom: 0;
   }
 
   .u-section-1 .u-text-1 {
