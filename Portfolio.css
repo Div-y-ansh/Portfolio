@@ -6,6 +6,7 @@
   width: 578px;
   min-height: 185px;
   transition-duration: 0.5s;
+  background-image: none;
   margin: 342px auto 0;
 }
 
@@ -111,7 +112,6 @@
 .u-section-2 .u-group-1 {
   width: 578px;
   min-height: 125px;
-  height: auto;
   margin: 0 120px 0 auto;
 }
 
@@ -145,6 +145,7 @@
   width: 255px;
   height: 255px;
   box-shadow: 7px 8px 15px 7px rgba(0,0,0,0.5);
+  transition-duration: 1s;
   margin: 0 auto;
 }
 
@@ -153,7 +154,7 @@
 }
 
 .u-section-2 .u-container-layout-3 {
-  padding: 0 30px;
+  padding: 0 28px;
 }
 
 .u-section-2 .u-text-2 {
@@ -168,10 +169,6 @@
 
   .u-section-2 .u-sheet-1 {
     min-height: 425px;
-  }
-
-  .u-section-2 .u-group-1 {
-    height: auto;
   }
 
   .u-section-2 .u-layout-wrap-1 {
@@ -349,7 +346,6 @@
 .u-section-3 .u-group-1 {
   width: 800px;
   min-height: 92px;
-  height: auto;
   background-image: none;
   margin: 45px auto 0;
 }
@@ -375,7 +371,6 @@
   grid-template-columns: calc(33.3333% - 13.3333px) calc(33.3333% - 13.3333px) calc(33.3333% - 13.3333px);
   min-height: 386px;
   grid-gap: 20px 20px;
-  grid-auto-columns: calc(33.3333% - 13.3333px);
 }
 
 .u-section-3 .u-list-item-1 {
@@ -464,7 +459,6 @@
 
   .u-section-3 .u-group-1 {
     margin-top: 44px;
-    height: auto;
   }
 
   .u-section-3 .u-list-1 {
@@ -515,7 +509,6 @@
   .u-section-3 .u-repeater-1 {
     grid-template-columns: 100%;
     min-height: 731px;
-    grid-auto-columns: 100%;
   }
 }
 
@@ -571,7 +564,6 @@
 .u-section-4 .u-group-1 {
   min-height: 92px;
   background-image: none;
-  height: auto;
   width: 800px;
   margin: 77px auto 0;
 }
@@ -591,8 +583,8 @@
 .u-section-4 .u-group-2 {
   transition-duration: 0.5s;
   min-height: 240px;
+  width: 1092px;
   height: auto;
-  width: 1025px;
   background-image: none;
   margin: 88px auto 60px;
 }
@@ -604,7 +596,7 @@
 .u-section-4 .u-gallery-1 {
   height: 181px;
   grid-gap: 17px 17px;
-  width: 1013px;
+  width: 1059px;
   margin: 0 auto;
 }
 
@@ -651,7 +643,6 @@
 
   .u-section-4 .u-group-1 {
     margin-top: 30px;
-    height: auto;
   }
 
   .u-section-4 .u-group-2 {
@@ -659,12 +650,12 @@
     margin-bottom: 0;
     margin-right: initial;
     margin-left: initial;
-    height: auto;
     width: auto;
+    height: auto;
   }
 
   .u-section-4 .u-gallery-1 {
-    height: 168px;
+    height: 161px;
     width: 940px;
   }
 
@@ -688,16 +679,15 @@
   }
 
   .u-section-4 .u-group-2 {
-    min-height: 1198px;
+    min-height: 1204px;
     margin-top: 26px;
-    margin-bottom: 47px;
+    margin-bottom: 41px;
     width: auto;
     margin-right: initial;
     margin-left: initial;
   }
 
   .u-section-4 .u-gallery-1 {
-    margin-top: 29px;
     height: 1146px;
     margin-right: initial;
     margin-left: initial;
@@ -706,6 +696,7 @@
 
   .u-section-4 .u-gallery-inner-1 {
     grid-template-columns: auto;
+    grid-gap: 20px 20px;
   }
 }
 
@@ -799,7 +790,6 @@
   transform: rotate(0deg) scale(1) translateX(0px) translateY(0px) !important;
 } .u-section-5 {
   background-image: linear-gradient(0deg, rgba(0,0,0,0.3), rgba(0,0,0,0.3)), url("images/what-every-teacher-should-know-about-the-science-of-learning.jpg");
-  background-position: 50% 50%;
 }
 
 .u-section-5 .u-sheet-1 {
@@ -877,17 +867,21 @@
 }
 
 @media (max-width: 1199px) {
+   .u-section-5 {
+    background-position: 50% 50%;
+  }
+
   .u-section-5 .u-sheet-1 {
     min-height: 440px;
   }
 
   .u-section-5 .u-group-1 {
-    margin-top: 32px;
+    margin-top: 30px;
   }
 
   .u-section-5 .u-group-2 {
-    margin-top: 36px;
-    margin-bottom: 40px;
+    margin-top: 40px;
+    margin-bottom: 0;
     margin-right: initial;
     margin-left: initial;
     width: auto;
@@ -909,36 +903,30 @@
   }
 
   .u-section-5 .u-sheet-1 {
-    min-height: 1793px;
+    min-height: 1411px;
   }
 
   .u-section-5 .u-group-1 {
-    margin-top: 50px;
-    margin-right: initial;
-    margin-left: initial;
-    width: auto;
+    margin-top: 47px;
+    width: 720px;
   }
 
   .u-section-5 .u-group-2 {
-    min-height: 1563px;
-    margin-top: 38px;
-    margin-bottom: 49px;
-    width: auto;
-    margin-right: initial;
-    margin-left: initial;
+    min-height: 1198px;
+    width: 517px;
+    margin: 34px auto 40px;
   }
 
   .u-section-5 .u-gallery-1 {
-    margin-top: 30px;
-    height: 1499px;
-    margin-right: initial;
-    margin-left: initial;
-    width: auto;
+    height: 1146px;
+    width: 512px;
+    margin-top: 29px;
+    margin-right: 0;
   }
 
   .u-section-5 .u-gallery-inner-1 {
     grid-template-columns: auto;
-    grid-gap: 20px 20px;
+    grid-gap: 46px 46px;
   }
 }
 
@@ -949,57 +937,60 @@
 
   .u-section-5 .u-group-1 {
     margin-top: 31px;
-    width: auto;
-    margin-right: initial;
-    margin-left: initial;
+    width: 540px;
   }
 
   .u-section-5 .u-group-2 {
-    min-height: 1166px;
+    min-height: 1163px;
     margin-top: 31px;
-    margin-bottom: 47px;
-    width: auto;
-    margin-right: initial;
-    margin-left: initial;
+    margin-bottom: 49px;
   }
 
   .u-section-5 .u-gallery-1 {
-    margin-top: 26px;
-    height: 1105px;
-    width: auto;
-    margin-right: initial;
-    margin-left: initial;
+    height: 1109px;
+    width: 472px;
+    margin-top: 24px;
+    margin-right: auto;
   }
 
   .u-section-5 .u-gallery-inner-1 {
-    grid-template-columns: repeat(1, auto);
+    grid-gap: 20px 20px;
   }
 }
 
 @media (max-width: 575px) {
   .u-section-5 .u-sheet-1 {
-    min-height: 924px;
+    min-height: 915px;
+  }
+
+  .u-section-5 .u-group-1 {
+    margin-top: 44px;
+    margin-right: initial;
+    margin-left: initial;
+    width: auto;
   }
 
   .u-section-5 .u-group-2 {
-    min-height: 721px;
-    margin-bottom: 50px;
-    width: auto;
-    margin-right: initial;
-    margin-left: initial;
+    min-height: 703px;
+    width: 316px;
+    margin-top: 34px;
+    margin-bottom: 42px;
+  }
+
+  .u-section-5 .u-container-layout-2 {
+    padding-bottom: 15px;
   }
 
   .u-section-5 .u-gallery-1 {
-    height: 675px;
-    margin-top: 24px;
-    width: auto;
-    margin-right: initial;
-    margin-left: initial;
+    height: 672px;
+    width: 340px;
+    margin-top: 0;
+    margin-left: -12px;
+    margin-right: -12px;
   }
 
   .u-section-5 .u-gallery-inner-1 {
-    grid-template-columns: auto;
-    grid-gap: 10px 10px;
+    grid-template-columns: repeat(1, auto);
   }
 }
 
